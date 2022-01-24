@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+    background-color: #F8F8F8;
+}
+
+.d-none {
+    display: none;
+}
+
+.first-nav {
+    background-color: #092343;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.logo {
+    height: 32px;
+    width: 125px;
+    margin: 16px;
+}
+
+.first-nav svg {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    top: -20px; 
+    left: -0.1vw;
+}
+
+.first-nav p:first-child {
+    color: #E42B1D;
+    font-size: large;
+    font-weight: bolder;
+    position: relative;
+    top: -0.7vh; 
+    left: -0vw;
+    font-family: 'Oswald', sans-serif;
+    font-size:small;
+}
+
+.first-nav button {
+    width: 100px;
+    height: 8vh;
+    margin-right: 10px;
+
+}
+
+.first-nav button:hover {
+    background-color: #0e3361;
+}
+
+.first-nav div:last-child p:last-child {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: -17px; 
+    left: 0px;
+    font-size:small;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 20px;
+}
+
+.shoping-bag-window {
+    margin-top: 10vh;
+    width: 80vw;
+    margin-left: 10vw;
+    border-radius: 10px;
+    min-height: 80vh;
+}
+
+.second-nav {
+    background-color: #164777;
+    
+}
+
+.second-nav * {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.second-nav  {
+    color: white;
+    
+}
+
+.nav-item button:hover {
+    color: #E42B1D;
+    font-weight:bolder;
+    
+
+}
+
+#to-add {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop-card img {
+    height: 180px;
+    width: 90px;
+}
+
+.shop-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.shop-card img {
+   margin-left: 5vw;
+}
+
+.shop-card * {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: gray;
+    font-weight: 600;
+}
+
+.shop-card > * {
+    margin-bottom: 7px;
+}
+
+.pop-up-title {
+    color: gray;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+}
+
+footer {
+    background-color: #092343;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10vh;
+}
+
+hr {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+
+@media screen and (min-width: 801px) {
+
+    .shop-card {
+        margin: 10px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        width: 18vw;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    }
+    .shop-card button {
+        color: #ffffff;
+        background-color:#E42B1D;
+        font-family: 'Oswald', sans-serif;
+        width: 16.5vw;
+    }
+
+    .article-selected {
+        display: flex;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px;
+        width: 30vw;
+        margin-left: 10vw;
+    }
+    
+    .article-selected img {
+        height: 200px;
+        width: 100px;
+    }
+    
+    .pop-up .btn-danger{
+        margin-left: 15vw;
+        background-color:#E42B1D;
+        margin-top: 2vh;
+        width: 20vw;
+        font-family: 'Oswald', sans-serif;
+    
+    }
+    
+    .txt-select p {
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: gray;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .txt-select {
+        margin-left: 20px;
+    }
+    
+    #js-select3 {
+        font-weight: 900;
+        font-size: larger;
+    }.article-selected {
+    display: flex;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 30vw;
+    margin-left: 10vw;
+    }
+
+    .article-selected img {
+        height: 200px;
+        width: 100px;
+    }
+
+    
+
+    .txt-select p {
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: gray;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .txt-select {
+        margin-left: 20px;
+    }
+
+    #js-select3 {
+        font-weight: 900;
+        font-size: larger;
+    }
+
+    .pop-up {
+        height: 70vh;
+        margin-bottom: 20vh;
+        width: 50vw;
+        margin-left: 25vw;
+        border-radius: 10px;
+    }
+
+    .pop-up .btn-danger{
+        margin-left: 15vw;
+        background-color:#E42B1D;
+        margin-top: 2vh;
+        width: 20vw;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .shop-card {
+        margin: 10px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        width: 80vw;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    }
+    .shop-card button {
+        color: #ffffff;
+        background-color:#E42B1D;
+        font-family: 'Oswald', sans-serif;
+        width: 70vw;
+    }
+
+    .article-selected {
+        display: flex;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px;
+        width: 80vw;
+        margin-left: 1vw;
+    }
+
+
+    
+    .article-selected img {
+        height: 200px;
+        width: 100px;
+    }
+    
+    .pop-up .btn-danger{
+        margin-left: 15vw;
+        background-color:#E42B1D;
+        margin-top: 2vh;
+        width: 20vw;
+        font-family: 'Oswald', sans-serif;
+    
+    }
+    
+    .txt-select p {
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: gray;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .txt-select {
+        margin-left: 20px;
+    }
+    
+    #js-select3 {
+        font-weight: 900;
+        font-size: larger;
+    }
+
+    .pop-up {
+        height: 90vh;
+        margin-bottom: 5vh;
+        width: 90vw;
+        margin-left: 5vw;
+        border-radius: 10px;
+    }
+
+    .pop-up .btn-danger{
+        margin-left: 15vw;
+        background-color:#E42B1D;
+        margin-top: 2vh;
+        width: 40vw;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+}
+  

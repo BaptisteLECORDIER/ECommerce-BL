@@ -1,0 +1,88 @@
+{"articles":[
+    {
+        "name1":"Poupée Vaudou",
+        "name2":"Emanuel Macron",
+        "stars":"4.5",
+        "price":"49.99",
+        "od-price":"70.99",
+        "promo":"-30%",
+        "url":"./assets/img/macron.png",
+        "category":"autre"
+    }, 
+        {
+        "name1":"Poupée Vaudou",
+        "name2":"Eric Zemmour",
+        "stars":"5",
+        "price":"14.99",
+        "oldprice":"",
+        "promo":"",
+        "url":"./assets/img/zemmour.png",
+        "category":"ext-droite"
+    }, 
+        {
+        "name1":"Poupée Vaudou",
+        "name2":"Anne Hidalgo",
+        "stars":"2.5",
+        "price":"9.99",
+        "od-price":"",
+        "promo":"",
+        "url":"./assets/img/hidalgo.png",
+        "category":"gauche"
+    }, 
+        {
+        "name1":"Poupée Vaudou",
+        "name2":"Valérie Pecresse",
+        "stars":"3.5",
+        "price":"14.99",
+        "od-price":"",
+        "promo":"",
+        "url":"./assets/img/pecresse.png",
+        "category":"droite"
+    }, 
+        {
+        "name1":"Poupée Vaudou",
+        "name2":"Yannick Jadot",
+        "stars":"4.5",
+        "price":"19.99",
+        "od-price":"",
+        "promo":"",
+        "url":"./assets/img/jadot.png",
+        "category":"gauche"
+    }, 
+        {
+        "name1":"Poupée Vaudou",
+        "name2":"Jean-Luc Mélanchon",
+        "stars":"4",
+        "price":"24.99",
+        "od-price":"",
+        "promo":"",
+        "url":"./assets/img/melanchon.png",
+        "category":"ext-gauche"
+    }, 
+        {
+        "name1":"Poupée Vaudou",
+        "name2":"Marine Le Pen",
+        "stars":"4",
+        "price":"14.99",
+        "od-price":"",
+        "promo":"",
+        "url":"./assets/img/lepen.png",
+        "category":"ext-droite"
+    }, 
+        {
+        "name1":"Poupée Vaudou",
+        "name2":"Christiane Taubira",
+        "stars":"3.5",
+        "price":"14.99",
+        "od-price":"",
+        "promo":"",
+        "url":"./assets/img/taubira.png",
+        "category":"gauche"
+    }   
+
+
+
+
+
+
+]}
